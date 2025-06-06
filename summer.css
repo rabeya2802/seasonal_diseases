@@ -1,0 +1,74 @@
+.global-section
+{
+    background-color: blanchedalmond;
+}
+.grid-container
+{
+    padding-top: 19px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+.grid-single-item p
+{
+    margin: 10px;
+   
+}
+.grid-single-item
+{
+    padding: 50px;
+    text-align: center;
+    border-left: 2px solid rebeccapurple;
+    background-color: aliceblue;
+    box-sizing: border-box;
+   /* background-color: coral; */
+  box-shadow: 10px 10px;
+}
+.grid-single-item:hover
+{
+    background-color: rgb(196, 255, 220);
+}
+.grid-single-item p
+{
+    color: darkkhaki;
+   
+}
+.work-single-img
+{
+    width: 159px;
+    height: 150px;
+}
+.contact-heading
+
+{
+    font-size: 55px;
+    text-align: center;
+
+}
+.summer-diseases
+{
+    text-align: left;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* .grid-single-item
+{
+    width: 93.33% ;
+    
+    
+
+} */
+.grid-single-item ul li
+{
+    text-align: left;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 10px; */
+  /* background-color: dodgerblue; */
+  padding: 10px;
+}

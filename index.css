@@ -1,0 +1,395 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Ancizar Serif", serif;
+   
+    
+    /* background-color: rgb(109, 82, 74);*/
+} 
+
+
+/* this is nav bar section */
+
+#main-menu
+{
+    background-color: #120811;
+    font-size: 23px;
+    height: 50px;
+    
+}
+.sticky
+{
+    position: sticky;
+    top: 0;
+}
+
+
+#main-menu ul
+{
+    list-style: none;
+    text-align: center;
+}
+#main-menu ul li{
+    position: relative;
+    display: inline-block;
+}
+#main-menu li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+}
+#main-menu li a:hover{
+    /* display: block; */
+    background-color: #f8c291;
+    
+}
+/* dropdown menu style */
+#main-menu ul li ul 
+{
+    font-size: 15px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    background-color: #78e08f;
+    width: 200px;
+    top: 50px;
+    display: none;
+    z-index: 999;
+    
+}
+#main-menu ul ul li
+{
+   display: block;
+}
+
+
+#main-menu ul li:hover a{
+    background-color: #f8c291;
+
+}
+#main-menu ul li:hover ul{
+    display: block;
+
+}
+
+#main-menu ul li:hover li a
+{
+    background-color: #78e08f;
+}
+#main-menu ul ul li a:hover
+{
+   background-color: #eb2f06;
+}
+/* first section */
+.first-section
+{
+    background-image: url(./image/leaf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    text-align: center;
+}
+.first-section h2{
+    color: rgb(208, 223, 45);
+    font-size: 40px;
+    margin: 10px;
+}
+/* global section */
+.global-section 
+{
+    background-color: #808e9b;
+}
+.global-heading
+{
+    font-size: 30px;
+    text-align: center;
+}
+.global-heading-p
+{
+    font-size: 15px;
+    text-align: center;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.grid-single-item
+{
+    /* background-color: #f3a683; */
+    background-color: #bdd4ce;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.grid-single-item:hover
+{
+    background-color: #00b894;
+}
+.grid-single-item a
+{
+    color: rgb(17, 18, 8);
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.grid-single-item a:hover
+{
+    background-color: #c92450;
+    color: rgb(239, 239, 6);
+
+}
+.grid-single-item img
+{
+    /* margin-bottom: 15px; */
+    height: 150px;
+    width: 200px;
+
+}
+.grid-single-item p
+{
+    color: #090a09;
+   
+}
+/* second section */
+
+.global-section1
+{
+    background-color: #c4cac6;
+    
+}
+.global-heading1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(154, 39, 154);
+}
+.global-heading-p
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+.img
+{
+ 
+ height: 100px;
+ width: 100px;
+}
+.summer-tratement-precaution
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+
+     
+}
+.summer-precaution
+{
+    padding: 20px;
+    background-color: #5db586;
+    border-radius: 70%;
+    background-image: url(./image/nature.jpg);
+}
+/* winter */
+.Winter-tratement-precaution
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px 100px;
+    padding: 20px;
+    text-align: center;
+
+     
+}
+.global-section1
+{
+    background-color: #f8c291;
+}
+.Winter-precaution
+{
+    padding: 20px;
+    background-color: #2fb2c9;
+    border-radius: 5%;
+    background-image: url(./image/winter.jpg);
+}
+.global-section2
+{
+    background-color: #f3b3bd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 20px;
+    text-align: center;
+    height: 300px;
+}
+
+/* monsoon */
+
+.global-section3
+{
+    background-color: #f8c291;
+    
+}
+.global-heading1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(154, 39, 154);
+}
+.global-heading-p
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+.img
+{
+ 
+ height: 100px;
+ width: 100px;
+}
+.Monsoon-tratement-precaution
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+
+     
+}
+.Monsoon-precaution
+{
+    padding: 20px;
+    background-color: #2fb2c9;
+    border-radius: 5%;
+    background-image: url(./image/winter.jpg);
+}
+.heading-monsoon
+{
+    color: #3f12d3;
+    text-align: center;
+}
+
+/* food habits */
+
+.global-section4
+{
+    background-color: #f3b3bd;
+}
+.global-heading
+{
+    font-size: 30px;
+    text-align: center;
+}
+.global-heading-p
+{
+    font-size: 15px;
+    text-align: center;
+}
+.grid-container4
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+
+.grid-single-item4
+{
+    /* background-color: #f3a683; */
+    background-color: #a8fce0;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.grid-single-item4 img
+{
+    /* margin-bottom: 15px; */
+    height: 150px;
+    width: 200px;
+
+}
+.grid-single-item4 a
+{
+    color: rgb(17, 18, 8);
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.grid-single-item4 p
+{
+    color: #090a09;
+   
+}
+
+.grid-single-item4:hover
+{
+    background-color: #00b894;
+}
+
+.grid-single-item4 a:hover
+{
+    background-color: #c92450;
+    color: rgb(239, 239, 6);
+
+}
+/* contact us */
+
+.contact-heading
+
+{
+    font-size: 55px;
+    text-align: center;
+
+}
+form
+{
+    margin-left:590px ;
+    padding: 30px;
+    
+}
+form input{
+
+    width: 252px;
+}
+.submit-btn
+{
+    width: 150px;
+    height: 25px;
+    color: rgb(226, 224, 224);
+    background-color: black;
+    margin-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+/* footer */
+.footer
+{
+    padding-top: 50px;
+    background-color: #2467f7;
+    color: aliceblue;
+    height: 100px;
+    text-align: center;
+}
+html
+{
+    scroll-behavior: smooth;
+}
