@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="log_in.css">
+</head>
+<body>
+
+    <div class="wrapper">
+            <div id="error">
+
+    </div>
+    <form action="succefull.html" method="post" id="log-in-form">
+            <h1>log in</h1>
+            <div class="input-box">
+               
+                <input type="text" placeholder="username" id="username" required>
+                <i class='bx  bxs-user'  ></i> 
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" id="password" required>
+                <i class='bx  bxs-lock'  ></i> 
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <button type="submit" class="btn">log in</button>
+            <div class="register-link">
+               <p>Don't have an account? <a href="register.html">Register</a></p>
+
+            </div>
+
+        </form>
+    </div>
+    <script>
+        const username = document.getElementById('username');
+        const password = document.getElementById('password');
+        const form = document.getElementById('log-in-form');
+        const error=document.getElementById('error');
+        form.addEventListener('submit',(e)=>
+    {
+        let messages = [];
+        if(username.value== "" || username.value == null)
+    {
+        messages.push("please enter your username");
+    }
+    if(!isNaN(username))
+    {
+        messages.push("pls enter character");
+    }
+    if(password.value.length<6)
+    {
+        messages.push("please type at least 6 digit for password");
+    }
+        if(messages.length>0)
+    {
+        e.preventDefault();
+        error.innerText=messages.join(", ");
+    }
+    }
+
+        )
+
+    </script>
+</body>
+</html>

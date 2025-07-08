@@ -16,43 +16,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="log_in.css"> -->
+
 </head>
 <body>
-   <header class="sticky">
-    <!-- this is header section -->
-     <header class="sticky">
-    <!-- this is header section -->
-     <nav id="main-menu">
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            
-           <li><a href="summer.html">Summer</a></li>
-           <li><a href="winter.html">Winter</a></li>
-           <li><a href="monsoon.html">Monsoon</a></li>
-           
-           <li><a href="#Treatement">Precaution</a>
-            <ul>
-                <li><a href="summer_precaution.html">summer</a></li>
-                <li><a href="winter_precaution.html">winter</a></li>
-                <li><a href="Monsoon_precaution.html">Monsoon</a></li>
+ <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    <label class="logo"><a href="index.html">Seasonal Diseases </a></label>
+    <ul>
+         <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="monsoon.html">Monsoon</a></li>
+                <li><a href="index.html#food">Foods</a></li>
+               
+                <li><a href="index.html#Treatement">Treatement</a>
+                <!-- <li><a href="index.html#">Sign Up</a></li> -->
+                <li><a href="contact.html">Contact Us</a></li>
+                 <li><a href="log_in.html">LogIn</a></li>
                 
             </ul>
-            </li>
-            <li><a href="#Treatement">Treatement</a>
-            <ul>
-                <li><a href="summer_treatement.html">summer</a></li>
-                <li><a href="winter_treatement.html">winter</a></li>
-                <li><a href="Monsoon_treatement.html">Monsoon</a></li>
-                
-            </ul>
-        
-        </li>
-           
-           <li><a href="#contact">Contact Us</a></li> 
-        </ul>
-     </nav>
-     </header>
+    </nav>
      <!-- first section -->
 
      <section class="first-section">
@@ -60,13 +49,39 @@
         <h2>seasonal Diseases Aswareness</h2>
         
     </section>
+          <section class="global-section5" id="contact">
+    <div class="wrapper">
+    <form id="form">
+            <h1>Contact Us</h1>
+            <div class="input-box">
+               
+                <input type="text" name="username" id="username" placeholder="username" required>
+                <i class='bx  bxs-user'  ></i> 
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" id="password" placeholder="password" required>
+                <i class='bx  bxs-lock'  ></i> 
+            </div>
+            <div class="input-box">
+                <input type="text" name="comment"  id="comment" placeholder="comment" required>
+                
+            </div>
+            <button type="submit" id="btn" class="btn">submit</button>
+            <div class="register-link">
+                <p>Don't have log in yet? <a href="log_in.html">LogIn</a></p>
+                <p>Don't have an account? <a href="register.html">Register</a></p>
+            </div>
+
+        </form>
+    </div>
+     </section>
       <!-- footer -->
     <footer>
         <div class="footer">
             <p>Author: Rabeya Khatun</p>
             <p>email: <a href="rabeya2802@gmail.com">rabeya2802@gmail.com</a></p>
         </div>
-
+       
     </footer>
     </body>
 
