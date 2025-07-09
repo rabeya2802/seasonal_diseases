@@ -140,7 +140,7 @@
 .summer-precaution
 {
     padding: 1rem 2rem;
-    background-color: #f0a740;
+    background-color: #eae4c5;
     border-radius: 5%;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@
     transition: 0.3s ease;
 }
 .summer-precaution:hover {
-  background-color: #f3caa1;
+  background-color: C;
   transform: scale(1.02); 
   box-shadow: 2px solid  #2467f7;
 }
@@ -181,7 +181,7 @@
 }
 .global-section1
 {
-    background-color: #a1eebe;
+    background-color: #f3caa1;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -189,7 +189,7 @@
     text-align: center;
     min-height: 600px;
     /* height: 400px; */
-    background-image: url(image/summer_nature.jpg);
+    /* background-image: url(image/summer_nature.jpg); */
     transition: 0.3s ease;
 }
 .global-section1:hover,.global-section2:hover, .global-section3:hover
@@ -197,6 +197,10 @@
     background-color: #a1eebe;
     transform: scale(1.04);
     background-color: #fdcb6e;
+}
+.global-section1:hover
+{
+     background-color: #f6d8a2;
 }
 .global-section1 h2:hover,.global-section2 h2:hover
 {
@@ -245,10 +249,6 @@
     /* height: 400px; */
     background-image: url(image/summer_f.jpg);
     transition: 0.3s ease;
-}
-#p
-{
-    color: #090a09;
 }
 
 /* monsoon */
@@ -331,13 +331,16 @@
 {
     color:violet ;
 }
-
+#p
+{
+    color: #090a09;
+}
 /* food habits */
 
 .global-section4
 {
     padding-top: 10px;
-background-color:#55efc4;
+background-color:#96f1eb;
     min-height: 400px;
     /* background-image: url(image/fruits.jpg); */
     /* background-color: antiquewhite; */
@@ -354,7 +357,7 @@ background-color:#55efc4;
 .global-section4:hover
 {
  transform: scale(1.03);
- background-color: #fab1a0;
+ background-color: #a0f8fa;
  
 }
 .global-heading
@@ -381,7 +384,7 @@ background-color:#55efc4;
 .grid-single-item4
 {
     /* background-color: #f3a683; */
-    background-color: #7ed6df;
+    background-color: #eae4c5;
     
     padding: 50px;
     text-align: center;
