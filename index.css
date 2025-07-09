@@ -246,6 +246,10 @@
     background-image: url(image/summer_f.jpg);
     transition: 0.3s ease;
 }
+#p
+{
+    color: #090a09;
+}
 
 /* monsoon */
 
